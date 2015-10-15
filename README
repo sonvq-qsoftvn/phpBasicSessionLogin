@@ -1,0 +1,32 @@
+Mô tả:
+	- Cho 1 form đăng nhập bao gồm 2 field email và password ở file login.php
+
+Yêu cầu bài tập:
+Phần I:
+	- Kiểm tra định dạng email
+	- Kiểm tra mật khẩu (Lớn hơn hoặc bằng 6 ký tự, bao gồm ít nhất 1 chữ số và chữ đầu tiên phải viết hoa)
+
+Phần II:
+	- Tạo 1 mảng các thành viên và kiểm tra thông tin đăng nhập dựa trên đó:
+		+ username: admin, password: Qsoftvietnam2015
+		+ username: user1, password: Qsoftvietnam2014
+		+ username: user2, password: Qsoftvietnam2013
+		+ username: user3, password: Qsoftvietnam2012
+	- Xuất thông báo đăng nhập thành công hay thất bại ra màn hình
+
+Phần III:
+	- Thêm 1 đường dẫn cho phép user có thể đăng xuất khỏi hệ thống
+	- Quản lý đăng nhập / đăng xuất bằng session
+	- Khi user đăng nhập / đăng xuất, log message có dạng như sau vào 1 file: 
+		+ "User %username logged in to the system at %datetime" (với '%username' của user hiện tại, '%datetime' là thời điểm thực tế user đó đã đăng nhập vào hệ thống)
+		+ "User %username logged out of the system at %datetime" (với '%username' của user hiện tại, '%datetime' là thời điểm thực tế user đó đã đăng nhập vào hệ thống)
+	- Nếu admin đăng nhập vào hệ thống, hiển thị 1 trang chứa thông tin của toàn bộ file log trên
+	- Nếu một thành viên khác đăng nhập vào hệ thống, hiển thị 1 trang chỉ chứa các thông tin đăng nhập / đăng xuất đối với user đó
+
+Những yêu cầu khác:
+	- Có sử dụng PHP Filter
+	- Có sử dụng PHP Exception Handling
+
+
+Cách nộp bài:
+	- Tạo branch mới theo format php1/teamname_username. VD: php1/team1_canhpv
